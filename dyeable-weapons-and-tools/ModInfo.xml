@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jake's Dyeable Weapons and Tools for Undead Legacy" />
+		<Description value="The modlet allows applying dyes to all Undead Legacy weapons and tools, even though there may be no visual effect on the item itself. This allows players to mark personal items in multiplayer games." />
+		<Author value="jake2097152" />
+		<Version value="1.0" />
+		<Website value="https://github.com/jake-7dtd/ULegacy/tree/main/dyeable-weapons-and-tools" />
+	</ModInfo>
+</xml>
