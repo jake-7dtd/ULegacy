@@ -1,0 +1,7 @@
+<configs>
+	
+	<append xpath="//block[@name='palletCans']">
+		<property name="Material" value="Mmetal" />
+	</append>
+	
+</configs>
