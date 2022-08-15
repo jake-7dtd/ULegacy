@@ -1,0 +1,7 @@
+<configs>
+	
+	<append xpath="//item[starts-with(@name, 'ulmResourceOre') and not(@name='ulmResourceOrePotassiumNitrate') and not(@name='ulmResourceOreStone') and not(@name='ulmResourceOreSulfur')]">
+		<property name="NoScrapping" value="true" />
+	</append>
+	
+</configs>
