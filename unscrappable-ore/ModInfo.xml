@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jake's Unscrappable Ore for Undead Legacy" />
+		<Description value="The modlet removes the option to scrap metal ores making it necessary to smelt them instead." />
+		<Author value="jake2097152" />
+		<Version value="1.0" />
+		<Website value="https://github.com/jake-7dtd/ULegacy/tree/main/unscrappable-ore" />
+	</ModInfo>
+</xml>
