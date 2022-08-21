@@ -1,0 +1,5 @@
+<configs>
+	
+	<append xpath="//item[ not (substring(@name, string-length(@name) - string-length('Blueprint') + 1) = 'Blueprint') and not (@name='meleeToolAxeT1IronFireaxe') and not (@name='meleeToolAxeT3Chainsaw') and ((starts-with(@name,'meleeToolAxe')) or (starts-with(@name,'ulmMeleeBlade')) or (starts-with(@name,'ulmMeleeSpear')) or (starts-with(@name,'ulmMeleeClub')) or (starts-with(@name,'ulmGunKinetic')) or (@name='ulmToolPickaxeStone') or (@name='ulmMeleeTwoHandedPipe')) ]/property[@name='Tags']/@value">,canHaveCosmetic</append>
+	
+</configs>
