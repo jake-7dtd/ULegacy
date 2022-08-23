@@ -1,7 +1,9 @@
 <configs>
 	
-	<append xpath="//block[@name='palletCans']">
-		<property name="Material" value="Mmetal" />
-	</append>
+	<insertAfter xpath="//block[@name='palletCans']">
+		<property name="Extends" value="decoEntityMetalMaster" param1="RepairItems" />
+	</insertAfter>
+	
+	<remove xpath="//block[@name='palletCans']/property[ (@name='Extends') and (@value='decoEntityPolymerMaster') ]" />
 	
 </configs>
