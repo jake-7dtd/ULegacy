@@ -1,6 +1,6 @@
 <configs>
 	
-	<insertAfter xpath="//block[@name='palletCans']">
+	<insertAfter xpath="//block[@name='palletCans']/property[ (@name='Extends') and (@value='decoEntityPolymerMaster') ]">
 		<property name="Extends" value="decoEntityMetalMaster" param1="RepairItems" />
 	</insertAfter>
 	
