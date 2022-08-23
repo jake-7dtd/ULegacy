@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jake's Titanium Ore Hotfix for Undead Legacy" />
+		<Description value="The modlet applies the missing 'oreTitanium' damage modifier to certain items." />
+		<Author value="jake2097152" />
+		<Version value="1.0" />
+		<Website value="https://github.com/jake-7dtd/ULegacy/tree/main/zzn-ulegacy-titanium-ore-hotfix" />
+	</ModInfo>
+</xml>
