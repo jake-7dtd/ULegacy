@@ -1,7 +1,7 @@
 <configs>
 	
-	<insertBefore xpath="//item[ not (substring(@name, string-length(@name) - string-length('Blueprint') + 1) = 'Blueprint') and ((starts-with(@name,'meleeToolAxe')) or (starts-with(@name,'ulmMeleeBlade')) or (starts-with(@name,'meleeWpnBlade'))) ]/effect_group/passive_effect[ (@operation='base_set') and (@name='HarvestCount')]">
+	<insertAfter xpath="//item[ not (substring(@name, string-length(@name) - string-length('Blueprint') + 1) = 'Blueprint') and ( (starts-with(@name,'meleeToolAxe')) or (starts-with(@name,'ulmMeleeBlade')) or (starts-with(@name,'meleeWpnBlade')) or (starts-with(@name,'meleeWpnKnuckles')) or (starts-with(@name,'ulmMeleeKnuckles')) or (starts-with(@name,'ulmMeleePolearm')) ) ]/effect_group/passive_effect[ (@operation='base_set') and (@name='BlockRange') ]">
 	<passive_effect operation="perc_set" name="DamageModifier" value="-.8" tags="oreTitanium" />
-	</insertBefore>
+	</insertAfter>
 	
 </configs>
