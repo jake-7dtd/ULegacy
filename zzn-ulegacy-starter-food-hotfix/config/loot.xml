@@ -1,0 +1,6 @@
+<configs>
+	
+	<setattribute xpath="//lootgroup[@name='groupStarterKit']/item[@group='groupCannedFood']" name="count">2</setattribute>
+	<set xpath="//lootgroup[@name='groupStarterKit']/item[@group='groupWater']/@count">2</set>
+	
+</configs>

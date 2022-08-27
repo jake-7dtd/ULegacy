@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jake's Starter Food Hotfix for Undead Legacy" />
+		<Description value="The modlet gives the player an additional item of food and drink. This is considered a hotfix since it is possible to get the undrinkable Grain Alcohol as drink." />
+		<Author value="jake2097152" />
+		<Version value="1.0" />
+		<Website value="https://github.com/jake-7dtd/ULegacy/tree/main/zzn-ulegacy-starter-food-hotfix" />
+	</ModInfo>
+</xml>
