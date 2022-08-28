@@ -1,5 +1,10 @@
 <configs>
 	
-	<set xpath="//quest[@id='ulmQuestIntroduction5']/objective/@type">FetchKeep</set>
+	<insertBefore xpath="//quest[@id='ulmQuestIntroduction5']/objective[ (@type='BlockPlace') and (@id='ulmStationCarpenter_1') ]">
+		<objective type="FetchKeep" id="ulmDecoLogTable" value="1" phase="2" />
+		<objective type="FetchKeep" id="ulmStationCarpenter_1" value="1" phase="3" />
+	</insertBefore>
+	
+	<remove xpath="//quest[@id='ulmQuestIntroduction5']/objective[@type='Craft']" />
 	
 </configs>
